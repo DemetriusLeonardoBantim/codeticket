@@ -12,10 +12,10 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	_ "github.com/DemetriusLeonardoBantim/codeticket/golang-microservice/docs" // Import the generated docs
-	httpHandler "github.com/DemetriusLeonardoBantim/codeticket/golang-microservice/http"
-	"github.com/DemetriusLeonardoBantim/codeticket/golang-microservice/repository"
-	"github.com/DemetriusLeonardoBantim/codeticket/golang-microservice/service"
+	_ "github.com/devfullcycle/imersao18/golang/docs" // Import the generated docs
+	httpHandler "github.com/devfullcycle/imersao18/golang/internal/events/infra/http"
+	"github.com/devfullcycle/imersao18/golang/internal/events/infra/repository"
+	"github.com/devfullcycle/imersao18/golang/internal/events/infra/service"
 	"github.com/devfullcycle/imersao18/golang/internal/events/usecase"
 	httpSwagger "github.com/swaggo/http-swagger"
 )
